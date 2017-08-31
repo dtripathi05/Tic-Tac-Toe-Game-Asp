@@ -95,5 +95,9 @@ namespace Tic_Tac_Toe
             return result;
         }
 
+        protected void Reset_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Tic-Tac-Toe.aspx");
+        }
     }
 }
